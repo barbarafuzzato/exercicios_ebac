@@ -13,14 +13,9 @@
             Então deve exibir a mensagem de erro: "E-mail inválido!"
 
             Cenário: Validar cadastro com todos os dados obrigatórios marcados com asterisco
-            Quando eu preencher os campos: "Nome", "Sobrenome", "País", "Endereço", "Cidade", "CEP", "Telefone" e "Endereço de e-mail"
+            Quando eu preencher todos os campos obrigatórios, marcados com asteriscos
             E todos os campos estiverem corretos
             Então é possível finalizar a compra
-
-            Cenário: Invalidar cadastro com todos os dados obrigatórios marcados com asterisco
-            Quando eu tentar realizar a compra
-            E todos os campos: "Nome", "Sobrenome", "País", "Endereço", "Cidade", "CEP", "Telefone" e "Endereço de e-mail" não estiverem corretos ou preenchidos
-            Então deve exibir a mensagem de alerta: "Campo obrigatório!"
 
             Esquema do Cenário: Campos Obrigatórios
             Quando eu tentar realizar a compra
