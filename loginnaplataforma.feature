@@ -8,11 +8,6 @@
             Contexto:
             Dado que eu acesse a página de autenticação da EBAC-SHOP
 
-            Cenário: Autenticação válida
-            Quando eu digitar o usuário "joseernesto@ebac.com.br"
-            E a senha "Gherkin12!"
-            Então deve exibir uma mensagem de boas vindas "Olá José!"
-
             Cenário: Usuário inexistente
             Quando eu digitar o usuário "errado@ebac.com.br"
             E a senha "Gherkin12!"
